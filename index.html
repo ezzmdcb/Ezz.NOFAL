@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ezz Nofal — Software Engineer Portfolio. Web development, interactive experiences, projects, skills and certificates.">
+    <meta name="theme-color" content="#050608">
+    <meta name="author" content="Ezz Nofal">
+    <meta property="og:title" content="Ezz Nofal | Software Engineer">
+    <meta property="og:description" content="Software Engineer portfolio — projects, certificates, skills and digital experiences.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <title>Ezz Nofal | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nofaaa.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<div class="background" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+</div>
+
+<header class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo" aria-label="Ezz Nofal home"><span>&lt;</span>EZZ<span>/</span>NOFAL<span>&gt;</span></a>
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a href="#home" class="active" data-key="home">Home</a>
+            <a href="#about" data-key="about">About</a>
+            <a href="#achievements" data-key="achievements">Achievements</a>
+            <a href="#skills" data-key="skills">Skills</a>
+            <a href="#journey" data-key="journey">Journey</a>
+            <a href="#dashboard" data-key="dashboard">Dashboard</a><a href="#github" data-key="github">GitHub</a><a href="#featured" data-key="featured">Featured</a>
+            <a href="#projects" data-key="projects">Projects</a>
+            <a href="#certificates" data-key="certificates">Certificates</a>
+            <a href="#blog" data-key="blog">Blog</a>
+            <a href="#process" data-key="process">Process</a><a href="#services" data-key="services">Services</a>
+            <a href="#contact" data-key="contact">Contact</a>
+        </nav>
+        <div class="nav-tools"><button class="lang-btn" id="langBtn" type="button">AR</button><button class="menu-btn" id="menuBtn" aria-label="Open navigation menu" aria-expanded="false" type="button">
+            <span></span><span></span><span></span>
+        </button></div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container hero-container">
+        <div class="hero-content reveal">
+            <div class="availability"><span></span>Available for opportunities</div>
+            <p class="small-title">SOFTWARE ENGINEER</p><div class="hero-achievement"><span>🏆</span><strong>TOP 50 PROGRAMMERS • 2026</strong><em>Certificate + Medal</em></div>
+            <h1>Building digital <span>experiences</span> that feel different.</h1>
+            <p class="hero-text">I'm <strong>Ezz Nofal</strong>, a Software Engineer passionate about building modern websites, applications, and interactive digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">Explore My Work <span>↗</span></a>
+                <a href="#contact" class="btn secondary">Let's Talk</a>
+            </div>
+            <div class="hero-tech">
+                <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>REACT</span><span>PYTHON</span>
+            </div>
+        </div>
+
+        <div class="code-card reveal">
+            <div class="code-header"><div class="dots"><i></i><i></i><i></i></div><p>developer.js</p></div>
+            <div class="code">
+                <div><small>01</small><span><b>const</b> developer = {</span></div>
+                <div class="indent"><small>02</small><span>name: <em>"Ezz Nofal"</em>,</span></div>
+                <div class="indent"><small>03</small><span>role: <em>"Software Engineer"</em>,</span></div>
+                <div class="indent"><small>04</small><span>passion: <em>"Building"</em>,</span></div>
+                <div class="indent"><small>05</small><span>coffee: <strong>true</strong></span></div>
+                <div><small>06</small><span>};</span></div>
+                <div><small>07</small><span>developer.build(); <i class="cursor"></i></span></div>
+            </div>
+            <div class="floating-card card-one">⚡ Clean Code</div>
+            <div class="floating-card card-two">✦ Creative UI</div>
+        </div>
+    </div>
+    <div class="scroll-down">SCROLL<span></span></div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-heading reveal"><span>01 / ABOUT ME</span><h2>More than code.<br><strong>It's about the experience.</strong></h2></div>
+        <div class="about-grid">
+            <div class="glass about-card reveal">
+                <div class="quote">“</div>
+                <h3>Great software should <span>feel great</span> to use.</h3>
+                <p>I'm Ezz Nofal, a Software Engineer focused on web development and interactive digital experiences.</p>
+                <p>I enjoy transforming ideas into functional, polished products while continuously improving my development and testing skills.</p>
+                <div class="about-points">
+                    <span>01 — Build</span><span>02 — Test</span><span>03 — Improve</span><span>04 — Learn</span>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="glass stat reveal"><strong id="statProjects">16+</strong><p>Projects Built</p></div>
+                <div class="glass stat reveal"><strong id="statCertificates">13</strong><p>Certificates</p></div>
+                <div class="glass stat reveal"><strong>7+</strong><p>Core Technologies</p></div>
+                <div class="glass stat reveal"><strong>100%</strong><p>Curiosity</p></div>
+            </div>
+        </div>
+    </div>
+<section id="achievements" class="section compact-section"><div class="container"><div class="section-heading reveal"><span>02 / ACHIEVEMENTS</span><h2>Milestones that<br><strong>define the journey.</strong></h2></div><div class="achievement-grid"><article class="glass achievement reveal achievement-featured"><div class="achievement-icon">🏆</div><div class="achievement-badge">2026 • TOP 50</div><h3>Top 50 Programmers</h3><p>Officially recognized in 2026 as one of the Top 50 programmers, with a certificate and medal awarded for the achievement.</p><span>Certificate + Medal</span></article><article class="glass achievement reveal"><div class="achievement-icon">🧪</div><div class="achievement-badge">INTERNSHIP</div><h3>FabLab Egypt</h3><p>Attended an internship at FabLab Egypt, gaining practical exposure to hands-on technology, digital fabrication and project-based learning.</p><span>Professional Experience</span></article><article class="glass achievement reveal"><div class="achievement-icon">💻</div><h3>16+ Projects</h3><p>A growing collection of web, education, productivity and interactive projects.</p><span>View projects ↓</span></article><article class="glass achievement reveal"><div class="achievement-icon">🎓</div><h3>13+ Certificates</h3><p>Training and learning milestones collected across programming, technology and digital skills.</p><span>View certificates ↓</span></article></div></div></section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-heading reveal"><span>03 / SKILLS</span><h2>Tools I use to<br><strong>bring ideas to life.</strong></h2></div>
+        <div class="skills-grid">
+            <article class="glass skill reveal" data-skill="HTML"><div class="skill-icon">HTML</div><h3>HTML</h3><p>Advanced</p><div class="bar"><span style="width:95%"></span></div><div class="skill-details">Semantic structure • Forms • Accessibility • SEO foundations</div></article>
+            <article class="glass skill reveal" data-skill="CSS"><div class="skill-icon">CSS</div><h3>CSS</h3><p>Advanced</p><div class="bar"><span style="width:92%"></span></div><div class="skill-details">Responsive layouts • Grid • Flexbox • Animations</div></article>
+            <article class="glass skill reveal" data-skill="JavaScript"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Advanced</p><div class="bar"><span style="width:88%"></span></div><div class="skill-details">DOM • Events • LocalStorage • Interactive apps</div></article>
+            <article class="glass skill reveal" data-skill="React"><div class="skill-icon">⚛</div><h3>React</h3><p>Intermediate+</p><div class="bar"><span style="width:84%"></span></div><div class="skill-details">Components • Props • State • Reusable UI</div></article>
+            <article class="glass skill reveal" data-skill="Bootstrap"><div class="skill-icon">B</div><h3>Bootstrap</h3><p>Advanced</p><div class="bar"><span style="width:90%"></span></div><div class="skill-details">Responsive grids • Components • Utilities • UI speed</div></article>
+            <article class="glass skill reveal" data-skill="Python"><div class="skill-icon">PY</div><h3>Python</h3><p>Intermediate</p><div class="bar"><span style="width:78%"></span></div><div class="skill-details">Programming fundamentals • Automation • Problem solving</div></article>
+            <article class="glass skill reveal" data-skill="Testing"><div class="skill-icon">QA</div><h3>Testing</h3><p>Intermediate+</p><div class="bar"><span style="width:82%"></span></div><div class="skill-details">Functional testing • Bug finding • Reliability • UI checks</div></article>
+        </div>
+        <div class="stack-panel glass reveal"><div><span>TECH STACK</span><h3>Frontend • Programming • Tools • Quality</h3></div><div class="stack-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Python</span><span>React</span><span>Bootstrap</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Testing</span></div></div>
+    </div>
+</section>
+
+<section id="journey" class="section">
+    <div class="container">
+        <div class="section-heading reveal"><span>04 / JOURNEY</span><h2>Learning, building,<br><strong>moving forward.</strong></h2></div>
+        <div class="journey-grid">
+            <div class="timeline">
+                <div class="timeline-item reveal"><span>2023</span><div><h3>Started the journey</h3><p>Built a foundation through programming, digital skills, and hands-on learning.</p></div></div>
+                <div class="timeline-item reveal"><span>2024</span><div><h3>Web development</h3><p>Focused on HTML, CSS, JavaScript and building complete responsive interfaces.</p></div></div>
+                <div class="timeline-item reveal"><span>2025</span><div><h3>Projects & broader skills</h3><p>Expanded into Python, React, Bootstrap, software testing and larger interactive projects.</p></div></div>
+                <div class="timeline-item reveal"><span>2026</span><div><h3>Top 50 Programmers</h3><p>Officially recognized among the Top 50 programmers in 2026 and awarded a certificate and medal.</p></div></div><div class="timeline-item reveal"><span>2026</span><div><h3>FabLab Egypt Internship</h3><p>Attended an internship at FabLab Egypt for practical, project-based technology experience.</p></div></div>
+            </div>
+            <div class="glass learning-card reveal">
+                <span class="mini-label">CURRENTLY LEARNING</span>
+                <h3>Always one step further.</h3>
+                <p>These are the areas I'm actively strengthening through projects and practice.</p>
+                <div class="learning-row"><span>JavaScript</span><b>88%</b><div><i style="width:88%"></i></div></div>
+                <div class="learning-row"><span>Python</span><b>78%</b><div><i style="width:78%"></i></div></div>
+                <div class="learning-row"><span>Software Testing</span><b>82%</b><div><i style="width:82%"></i></div></div>
+                <div class="learning-row"><span>Backend Development</span><b>Learning</b><div><i style="width:55%"></i></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="dashboard" class="section compact-section professional-dashboard">
+<div class="container">
+<div class="section-heading projects-heading reveal"><div><span>05 / DEVELOPER DASHBOARD</span><h2>Proof of work.<br><strong>Built in public.</strong></h2></div><p>A live snapshot of my development work, technical profile and current direction.</p></div>
+<div class="dashboard-grid">
+<div class="dashboard-stat glass reveal"><span>PROJECTS</span><strong id="dashProjects">16+</strong><small>Web, education, productivity & interactive projects</small></div>
+<div class="dashboard-stat glass reveal"><span>CORE SKILLS</span><strong>09</strong><small>Frontend, programming, testing and development tools</small></div>
+<div class="dashboard-stat glass reveal"><span>CERTIFICATES</span><strong id="dashCertificates">13</strong><small>Learning milestones from recognized platforms</small></div>
+<div class="dashboard-stat glass reveal"><span>FOCUS</span><strong>BUILD</strong><small>Turning ideas into useful digital products</small></div>
+</div>
+<div class="dashboard-panels">
+<div class="glass dashboard-panel reveal"><div class="panel-heading"><span>TECHNOLOGY PROFILE</span><b>ACTIVE</b></div>
+<div class="tech-meter"><span>HTML5</span><i><em style="width:95%"></em></i><strong>95%</strong></div>
+<div class="tech-meter"><span>CSS3</span><i><em style="width:92%"></em></i><strong>92%</strong></div>
+<div class="tech-meter"><span>JavaScript</span><i><em style="width:88%"></em></i><strong>88%</strong></div>
+<div class="tech-meter"><span>React</span><i><em style="width:84%"></em></i><strong>84%</strong></div>
+<div class="tech-meter"><span>Python</span><i><em style="width:78%"></em></i><strong>78%</strong></div>
+</div>
+<div class="glass dashboard-panel reveal current-focus"><div class="panel-heading"><span>CURRENTLY</span><b>IN PROGRESS</b></div><h3>StudyFlow</h3><p>A student productivity platform focused on planning, study tracking, goals, streaks, achievements, notifications and responsive experiences.</p><div class="focus-tags"><span>Productivity</span><span>JavaScript</span><span>PWA</span><span>Responsive</span></div><a class="text-btn" href="#featured">Explore case study ↗</a></div>
+</div>
+</div>
+</section>
+
+<section id="featured" class="section compact-section"><div class="container"><div class="section-heading projects-heading reveal"><div><span>06 / FEATURED PROJECT</span><h2>One project.<br><strong>More depth.</strong></h2></div><p>StudyFlow is the project that best represents my approach to product thinking, interaction design, persistence, responsive UI and continuous improvement.</p></div><article class="featured-project glass reveal" data-tilt><div class="featured-preview"><div class="preview-window"><div class="preview-top"><i></i><i></i><i></i><span>studyflow.app</span></div><div class="preview-body studyflow-preview"><small>STUDENT PRODUCTIVITY PLATFORM</small><h3>STUDYFLOW</h3><p>Plan. Study. Track. Improve.</p><div class="preview-bars"><i></i><i></i><i></i><i></i></div><div class="preview-mini-grid"><span>Goals</span><span>Streaks</span><span>Focus</span><span>Analytics</span></div></div></div></div><div class="featured-copy"><span class="mini-label">DEEP CASE STUDY</span><h3>StudyFlow</h3><p class="lead-copy">A complete student-focused productivity platform created to turn studying into a measurable daily workflow — combining schedules, tasks, study-time tracking, goals, streaks, achievements, notes, timers, reminders and progress feedback in one responsive experience.</p><div class="case-grid"><div><b>Problem</b><span>Students often manage lessons, deadlines, goals and study time across disconnected tools.</span></div><div><b>Solution</b><span>A unified responsive workspace that makes planning and progress visible while keeping everyday actions quick.</span></div><div><b>Engineering</b><span>Client-side state management, LocalStorage persistence, responsive component patterns, automatic study-time tracking, timers, goals, streak logic, achievement states, notifications and progressive web app capabilities.</span></div><div><b>Quality</b><span>Mobile-first behavior, clear states, validation, feedback, offline-friendly behavior, accessibility considerations and iterative feature testing and bug fixing across screen sizes.</span></div></div><div class="studyflow-details"><div><b>Core modules</b><span>Dashboard • Schedule • Tasks • Daily Goals • Weekly Goals • Focus • Study Time • Streaks • Achievements • Analytics • Notes • Timers • Notifications</span></div><div><b>Technology</b><span>HTML • CSS • JavaScript • LocalStorage • PWA</span></div><div><b>What I learned</b><span>Designing stateful interfaces, handling persistence, building responsive systems and turning feature requests into a coherent product.</span></div></div><div class="project-modal-actions"><button class="btn primary" id="featuredViewProject" type="button">View Project ↗</button><a class="btn secondary" href="#contact">Discuss a Project</a></div></div></article></div></section>
+
+
+<section id="developer-lab" class="section compact-section developer-lab">
+  <div class="container">
+    <div class="section-heading projects-heading reveal"><div><span>07 / DEVELOPER LAB</span><h2>Not just a portfolio.<br><strong>A personal platform.</strong></h2></div><p>Explore the interactive systems behind the work: search, compare, experiment, inspect and discover hidden details.</p></div>
+    <div class="lab-toolbar glass reveal">
+      <label class="lab-search"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search projects, skills, certificates..." autocomplete="off"><kbd>Ctrl K</kbd></label>
+      <button class="lab-btn" id="openTerminal" type="button">⌘ Terminal</button><button class="lab-btn" id="openIdentity" type="button">ID Card</button><button class="lab-btn" id="recruiterMode" type="button">Recruiter View</button><button class="lab-btn" id="presentationMode" type="button">Presentation</button>
+    </div>
+    <div class="lab-grid">
+      <article class="glass lab-card reveal lab-wide"><div class="lab-card-head"><div><span>ACTIVITY HEATMAP</span><h3>Development rhythm</h3></div><b id="activityTotal">0 actions</b></div><div id="activityHeatmap" class="heatmap" aria-label="Development activity heatmap"></div><div class="heatmap-legend"><span>Less</span><i></i><i></i><i></i><i></i><span>More</span></div></article>
+      <article class="glass lab-card reveal"><div class="lab-card-head"><div><span>SKILL MAP</span><h3>Technology connections</h3></div></div><div id="skillMap" class="skill-map"></div></article>
+      <article class="glass lab-card reveal"><div class="lab-card-head"><div><span>PROJECT COMPARE</span><h3>Put two builds side by side</h3></div></div><div class="compare-selects"><select id="compareA"></select><select id="compareB"></select></div><div id="compareResult" class="compare-result"></div></article>
+      <article class="glass lab-card reveal lab-wide playground-card"><div class="lab-card-head"><div><span>LIVE PLAYGROUND</span><h3>Build, run and experiment</h3><p class="muted">Edit HTML, CSS and JavaScript separately. The preview updates inside a safe sandbox without leaving the portfolio.</p></div><div class="playground-actions"><button class="lab-btn" id="runPlayground" type="button">▶ Run</button><button class="lab-btn secondary-lab" id="resetPlayground" type="button">↺ Reset</button><button class="lab-btn secondary-lab" id="examplePlayground" type="button">✨ Example</button></div></div><div class="playground-toolbar"><div class="playground-status" id="playgroundStatus"><span></span> Ready</div><label class="playground-option"><input type="checkbox" id="playgroundAuto"> Auto-run</label><button class="playground-clear" id="clearPlayground" type="button">Clear editors</button></div><div class="playground"><div class="playground-editors"><div class="code-panel"><div class="code-panel-head"><b>HTML</b><span>Structure</span></div><textarea id="playgroundHTML" spellcheck="false" aria-label="HTML editor"><div class="demo-card"><span class="eyebrow">EZZ PLAYGROUND</span><h3>Hello, Ezz!</h3><p>Edit the three panels and run your code.</p><button id="demoButton">Test interaction</button><strong id="demoOutput"></strong></div></textarea></div><div class="code-panel"><div class="code-panel-head"><b>CSS</b><span>Styles</span></div><textarea id="playgroundCSS" spellcheck="false" aria-label="CSS editor">body{font-family:Arial,sans-serif;padding:24px;background:#0b1020;color:#fff}.demo-card{max-width:420px;margin:auto;padding:28px;border:1px solid #3a4260;border-radius:20px;background:#151b2d;box-shadow:0 20px 50px #0005}.eyebrow{font-size:11px;letter-spacing:.15em;color:#a99aff}.demo-card h3{font-size:28px;margin:10px 0}.demo-card p{color:#aeb7c8;line-height:1.6}button{padding:11px 15px;border:0;border-radius:10px;background:#7c5ce7;color:#fff;cursor:pointer}#demoOutput{display:block;margin-top:12px;color:#9ff0c4}</textarea></div><div class="code-panel"><div class="code-panel-head"><b>JS</b><span>Interaction</span></div><textarea id="playgroundJS" spellcheck="false" aria-label="JavaScript editor">document.getElementById('demoButton').addEventListener('click',()=>{document.getElementById('demoOutput').textContent='✓ JavaScript is working!'})</textarea></div></div><div class="playground-preview"><div class="preview-head"><span>LIVE PREVIEW</span><span id="playgroundSize">Sandbox</span></div><iframe id="playgroundFrame" title="Live project playground" sandbox="allow-scripts"></iframe></div></div></article>
+      <article class="glass lab-card reveal"><div class="lab-card-head"><div><span>BEHIND THE SCREENS</span><h3>How projects evolve</h3></div></div><div class="build-flow"><span>IDEA</span><i>→</i><span>DESIGN</span><i>→</i><span>BUILD</span><i>→</i><span>DEBUG</span><i>→</i><span>SHIP</span></div><p class="muted">Every project card now exposes its problem, solution, engineering approach and quality checks. Use “View Details” to inspect the full case study.</p></article>
+      <article class="glass lab-card reveal"><div class="lab-card-head"><div><span>PROJECT HISTORY</span><h3>Version thinking</h3></div></div><div class="version-list"><div><b>V1</b><span>Idea & first prototype</span></div><div><b>V2</b><span>Responsive UI & interactions</span></div><div><b>V3</b><span>Persistence, validation & polish</span></div><div><b>V∞</b><span>Continuous improvement</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-heading projects-heading reveal">
+            <div><span>06 / SELECTED WORK</span><h2>Things I've<br><strong>built.</strong></h2></div>
+            <p>A collection of projects exploring development, design, education, productivity, and interactive experiences.</p>
+        </div>
+        <div class="filter-bar reveal" role="group" aria-label="Project filters">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="education" type="button">Education</button>
+            <button class="filter-btn" data-filter="web app" type="button">Web App</button>
+            <button class="filter-btn" data-filter="security" type="button">Security</button>
+            <button class="filter-btn" data-filter="marketplace" type="button">Marketplace</button>
+            <button class="filter-btn" data-filter="productivity" type="button">Productivity</button>
+            <button class="filter-btn" data-filter="management" type="button">Management</button>
+            <button class="filter-btn" data-filter="creative" type="button">Creative</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+</section>
+
+<section id="certificates" class="section">
+    <div class="container">
+        <div class="section-heading projects-heading reveal">
+            <div><span>07 / CERTIFICATES</span><h2>Proof of<br><strong>learning.</strong></h2></div>
+            <p>Selected certificates and verified learning milestones.</p>
+        </div>
+        <div class="certificate-grid" id="certificateGrid"></div>
+    </div>
+</section>
+
+<section id="process" class="section compact-section"><div class="container"><div class="section-heading reveal"><span>10 / HOW I BUILD</span><h2>From idea to<br><strong>working product.</strong></h2></div><div class="process-grid"><article class="glass process-step reveal"><span>01</span><h3>Discover</h3><p>Understand the goal, audience, constraints and the real problem behind the request.</p></article><article class="glass process-step reveal"><span>02</span><h3>Plan</h3><p>Break the product into practical features, states, content and technical requirements.</p></article><article class="glass process-step reveal"><span>03</span><h3>Design</h3><p>Create a visual system with clear hierarchy, responsive layouts and purposeful interactions.</p></article><article class="glass process-step reveal"><span>04</span><h3>Develop</h3><p>Build the interface and functionality with maintainable structure and reusable patterns.</p></article><article class="glass process-step reveal"><span>05</span><h3>Test</h3><p>Check links, forms, edge cases, keyboard behavior, mobile layouts and multiple browsers.</p></article><article class="glass process-step reveal"><span>06</span><h3>Deploy</h3><p>Prepare the final build, metadata, performance and deployment-ready files.</p></article></div></div></section>
+
+<section id="github" class="section compact-section"><div class="container"><div class="section-heading projects-heading reveal"><div><span>11 / DEVELOPMENT ACTIVITY</span><h2>GitHub.<br><strong>Real repositories.</strong></h2></div><p>Public development activity and repository highlights.</p></div><div class="github-grid" id="githubRepos"><div class="glass github-empty reveal"><span class="github-mark">GH</span><h3>GitHub activity</h3><p></p><a class="btn secondary" id="githubDashboardLink" href="#" target="_blank" rel="noopener noreferrer">Open GitHub ↗</a></div></div></div></section>
+
+<section id="services" class="section">
+    <div class="container">
+        <div class="section-heading reveal"><span>08 / WHAT I DO</span><h2>Turning ideas into<br><strong>digital products.</strong></h2></div>
+        <div class="services">
+            <div class="service reveal"><span>01</span><div><h3>Web Development</h3><p>Modern responsive websites with clean structure, thoughtful UI, and smooth interactions.</p></div><b>↗</b></div>
+            <div class="service reveal"><span>02</span><div><h3>React Development</h3><p>Component-based React interfaces designed for maintainability and scalability.</p></div><b>↗</b></div>
+            <div class="service reveal"><span>03</span><div><h3>UI Implementation</h3><p>Turning design ideas into polished, responsive interfaces.</p></div><b>↗</b></div>
+            <div class="service reveal"><span>04</span><div><h3>Software Testing</h3><p>Testing interfaces and functionality to identify issues and improve reliability.</p></div><b>↗</b></div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="section compact-section"><div class="container"><div class="section-heading projects-heading reveal"><div><span>12 / NOTES & ARTICLES</span><h2>Thinking through<br><strong>the work.</strong></h2></div><p>Short technical notes demonstrate how you think, debug, test and make engineering decisions.</p></div><div class="blog-grid"><article class="glass blog-card reveal"><span>FRONTEND</span><h3>Building responsive interfaces without overcomplicating CSS</h3><p>Practical notes on grid, flexbox, spacing systems and mobile-first decisions.</p><button class="text-btn article-btn" data-article="0">Read note ↗</button></article><article class="glass blog-card reveal"><span>JAVASCRIPT</span><h3>Small interactions that make a UI feel alive</h3><p>Thoughts on scroll reveal, modals, state, keyboard controls and progressive enhancement.</p><button class="text-btn article-btn" data-article="1">Read note ↗</button></article><article class="glass blog-card reveal"><span>QUALITY</span><h3>Testing a project before calling it finished</h3><p>A lightweight checklist for responsive behavior, forms, links, errors and accessibility.</p><button class="text-btn article-btn" data-article="2">Read note ↗</button></article></div></div></section>
+
+<section id="testimonials" class="section compact-section"><div class="container"><div class="section-heading reveal"><span>13 / TESTIMONIALS</span><h2>Let the work<br><strong>speak for itself.</strong></h2></div><div class="testimonial-empty glass reveal"><div class="quote">“</div><h3>Verified testimonials belong here.</h3><p>When a real client, teacher, teammate or collaborator gives permission to publish feedback, add their exact words here.</p><a class="btn secondary" href="#contact">Request a testimonial ↗</a></div></div></section>
+
+<section class="section compact-section intro-section"><div class="container"><div class="glass intro-card reveal"><div><span>15 / INTRO</span><h2>Meet Ezz.<br><strong>Build with purpose.</strong></h2><p></p></div><button class="btn primary" id="videoOpen">Watch Introduction ↗</button></div></div></section>
+
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <div class="glass contact reveal">
+            <div class="contact-glow"></div>
+            <span>14 / CONTACT</span>
+            <h2>Have an idea?<br><strong>Let's build it.</strong></h2>
+            <p>Whether it's a website, application, or an interesting idea, I'm always interested in building something meaningful.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-grid"><label><span>Name</span><input id="contactName" name="name" type="text" placeholder="Your name" required></label><label><span>Email</span><input id="contactEmail" name="email" type="email" placeholder="your@email.com" required></label></div>
+                <label><span>Message</span><textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea></label>
+                <button class="btn primary contact-btn" type="submit">Send Message <span>↗</span></button>
+            </form>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+            <p class="contact-note">Messages are prepared in your email client.</p>
+            <div class="socials">
+                <a href="https://www.instagram.com/ezz.nofal" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.instagram.com/ezz.nofal" id="githubLink" aria-label="GitHub link">GitHub</a>
+                <a href="https://www.linkedin.com/in/ezz-eldin-ahmed-nofal-59054128a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="quick-tools"><button id="surpriseMe" type="button">✨ Surprise</button></div>
+<footer><div class="container footer-content"><div class="footer-logo">EZZ <span>NOFAL</span></div><p>Designed & built with curiosity.</p><div class="footer-links"><a href="sitemap.xml">Sitemap</a><a href="404.html">404</a><p>© <span id="year"></span> Ezz Nofal</p></div></div></footer>
+<button id="topBtn" class="top-btn" type="button" aria-label="Back to top">↑</button>
+
+<button class="admin-trigger" id="adminTrigger" type="button" aria-label="Open private portfolio manager">E</button>
+<div class="admin-modal" id="adminModal" aria-hidden="true"><div class="admin-panel glass"><button class="modal-close" id="adminClose" type="button" aria-label="Close">×</button><div class="admin-head"><span>PRIVATE CONTROL</span><h2>Portfolio Manager</h2><p>Manage projects, certificates and portfolio data.</p></div><div class="admin-login" id="adminLogin"><label for="adminPassword">Password</label><input id="adminPassword" type="password" autocomplete="current-password"><button class="btn primary" id="adminLoginBtn" type="button">Unlock</button><p id="adminLoginStatus"></p></div><div class="admin-content" id="adminContent" hidden><div class="admin-tabs"><button class="admin-tab active" data-admin-tab="projects" type="button">Projects</button><button class="admin-tab" data-admin-tab="certificates" type="button">Certificates</button><button class="admin-tab" data-admin-tab="data" type="button">Data</button><button class="admin-tab" data-admin-tab="analytics" type="button">Analytics</button></div><div class="admin-tab-panel active" data-admin-panel="projects"><form id="projectForm" class="admin-form"><input type="hidden" id="editProjectId"><div class="admin-form-grid"><input id="projectTitle" placeholder="Project title" required><input id="projectCategory" placeholder="Category" required><input id="projectIcon" placeholder="Icon"><input id="projectLive" type="url" placeholder="Live project URL"><input id="projectGithub" type="url" placeholder="GitHub URL"><input id="projectTags" placeholder="Tags separated by commas"><textarea id="projectDescription" placeholder="Description" required></textarea><textarea id="projectFeatures" placeholder="Features separated by |"></textarea><textarea id="projectProblem" placeholder="Problem"></textarea><textarea id="projectSolution" placeholder="Solution"></textarea><textarea id="projectEngineering" placeholder="Engineering"></textarea><textarea id="projectQuality" placeholder="Quality"></textarea></div><div class="admin-actions"><button class="btn primary" type="submit">Save Project</button><button class="btn secondary" id="projectReset" type="button">Reset</button></div></form><div class="admin-list" id="adminProjectList"></div></div><div class="admin-tab-panel" data-admin-panel="certificates"><form id="certificateForm" class="admin-form"><input type="hidden" id="editCertificateId"><div class="admin-form-grid"><input id="certificateTitle" placeholder="Certificate title" required><input id="certificateIssuer" placeholder="Issuer"><input id="certificateImage" placeholder="Image path or URL"><input id="certificateDate" placeholder="Date"><input id="certificateLink" type="url" placeholder="Verification URL"><label class="upload-field">Certificate PDF <input id="certificatePdf" type="file" accept="application/pdf"></label><textarea id="certificateDescription" placeholder="Description"></textarea></div><div class="admin-actions"><button class="btn primary" type="submit">Save Certificate</button><button class="btn secondary" id="certificateReset" type="button">Reset</button></div></form><div class="admin-list" id="adminCertificateList"></div></div><div class="admin-tab-panel" data-admin-panel="analytics"><div class="analytics-grid"><div><span>Visits</span><strong id="analyticsVisits">0</strong></div><div><span>Project opens</span><strong id="analyticsProjects">0</strong></div><div><span>Certificate opens</span><strong id="analyticsCertificates">0</strong></div></div><div class="analytics-recent" id="analyticsRecent"></div></div><div class="admin-tab-panel" data-admin-panel="data"><div class="data-actions"><button class="btn primary" id="exportData" type="button">Export Data</button><label class="btn secondary file-btn">Import Data<input id="importData" type="file" accept="application/json" hidden></label><button class="btn secondary" id="resetData" type="button">Reset Custom Data</button></div><p class="admin-data-note">Private edits are stored in this browser.</p></div></div></div></div><div class="project-modal" id="projectModal" aria-hidden="true">
+    <button class="modal-close" id="projectModalClose" type="button" aria-label="Close project details">×</button>
+    <div class="project-modal-content" role="dialog" aria-modal="true" aria-label="Project details">
+        <div class="project-modal-preview" id="projectModalPreview"><span id="projectModalIcon"></span></div>
+        <div class="project-modal-copy"><span class="mini-label" id="projectModalCategory"></span><h2 id="projectModalTitle"></h2><p id="projectModalDescription"></p><div class="tags" id="projectModalTags"></div><div class="modal-detail-grid"><div><b>Problem</b><p id="projectModalProblem"></p></div><div><b>Solution</b><p id="projectModalSolution"></p></div><div><b>Engineering</b><p id="projectModalEngineering"></p></div><div><b>Quality</b><p id="projectModalQuality"></p></div></div><h4>Features</h4><ul id="projectModalFeatures"></ul><div class="project-modal-actions"><a class="btn primary" id="projectLiveLink" href="#" target="_blank" rel="noopener noreferrer">View Project ↗</a><a class="btn secondary" id="projectGithubLink" href="#" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p class="link-note" id="projectLinkNote"></p></div>
+    </div>
+</div>
+
+<div class="article-modal" id="articleModal" aria-hidden="true"><button class="modal-close" id="articleModalClose">×</button><div class="article-modal-content" role="dialog" aria-modal="true"><span id="articleCategory"></span><h2 id="articleTitle"></h2><div id="articleBody"></div></div></div><div class="video-modal" id="videoModal" aria-hidden="true"><button class="modal-close" id="videoClose">×</button><div class="video-modal-content" role="dialog" aria-modal="true"><span>INTRODUCTION</span><h2>Meet Ezz</h2><div class="video-frame" id="videoFrame"><p>Introduction video</p></div></div></div><div class="install-toast" id="installToast"><span>Install this portfolio as an app?</span><button id="installBtn">Install</button><button id="installDismiss">×</button></div>
+
+
+<div class="command-modal" id="commandModal" aria-hidden="true"><div class="command-box glass" role="dialog" aria-modal="true" aria-label="Command palette"><div class="command-head"><span>COMMAND PALETTE</span><kbd>ESC</kbd></div><input id="commandInput" placeholder="Type a command..." autocomplete="off"><div id="commandList" class="command-list"></div></div></div>
+<div class="terminal-modal" id="terminalModal" aria-hidden="true"><div class="terminal-window" role="dialog" aria-modal="true"><div class="terminal-top"><span>EZZ@PORTFOLIO:~$</span><button id="terminalClose" type="button">×</button></div><div id="terminalOutput" class="terminal-output"></div><form id="terminalForm"><span>›</span><input id="terminalInput" autocomplete="off" aria-label="Terminal command"></form></div></div>
+<div class="identity-modal" id="identityModal" aria-hidden="true"><div class="identity-card glass" role="dialog" aria-modal="true"><button class="modal-close" id="identityClose" type="button">×</button><div class="id-avatar">E</div><span class="mini-label">DEVELOPER IDENTITY</span><h2>Ezz Nofal</h2><p>Software Developer • Builder • Learner</p><div class="id-stats"><div><b id="idProjects">16+</b><span>Projects</span></div><div><b id="idCertificates">13</b><span>Certificates</span></div><div><b>2026</b><span>Recognition</span></div></div><div class="id-actions"><button class="btn primary" id="identityExplore" type="button">Explore Portfolio</button></div></div></div>
+<div class="recruiter-overlay" id="recruiterOverlay" aria-hidden="true"><div class="recruiter-sheet"><button class="modal-close" id="recruiterClose" type="button">×</button><span class="mini-label">RECRUITER VIEW</span><h1>Ezz Nofal</h1><p class="lead-copy">Software Developer focused on interactive web experiences, productivity products and practical project building.</p><div class="recruiter-grid"><div><b>Core skills</b><span>HTML • CSS • JavaScript • React • Python • Bootstrap • Testing</span></div><div><b>Highlights</b><span>16+ projects • 13+ certificates • 2026 recognition • FabLab Egypt internship</span></div><div><b>Featured work</b><span>StudyFlow • CODE Z • Learning Hub • Tender System</span></div><div><b>Contact</b><span>Use the contact form or social links to connect with Ezz.</span></div></div><div class="id-actions"><button class="btn primary" id="recruiterExplore" type="button">Explore Portfolio</button><button class="btn secondary" id="recruiterBack" type="button">Back to portfolio</button></div></div></div>
+<div class="presentation-overlay" id="presentationOverlay" aria-hidden="true"><div class="presentation-slide" id="presentationSlide"><button class="presentation-close" id="presentationClose" type="button">×</button><span id="presentationCount">1 / 6</span><div id="presentationContent"></div><div class="presentation-nav"><button id="presentationPrev" type="button">←</button><button id="presentationNext" type="button">→</button></div></div></div>
+<div class="search-results" id="searchResults" aria-hidden="true"><div class="search-results-box glass"><div class="command-head"><span>SEARCH RESULTS</span><button id="searchClose" type="button">×</button></div><div id="searchResultsList"></div></div></div>
+
+<script src="nofaaa.js"></script>
+</body>
+</html>
