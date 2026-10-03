@@ -253,7 +253,13 @@ document.addEventListener("keydown", event => {
     document.getElementById('articleModalClose')?.addEventListener('click',()=>{am.classList.remove('open');document.body.classList.remove('modal-open')});am?.addEventListener('click',e=>{if(e.target===am){am.classList.remove('open');document.body.classList.remove('modal-open')}});
 
     const vm=document.getElementById('videoModal');
-    document.getElementById('videoOpen')?.addEventListener('click',()=>{const frame=document.getElementById('videoFrame');frame.innerHTML='';const url=cfg.introVideoUrl||'';if(url){if(/youtube|youtu\.be|vimeo/.test(url)){const iframe=document.createElement('iframe');iframe.src=url.replace('watch?v=','embed/');iframe.title='Ezz Nofal introduction';iframe.allow='autoplay; fullscreen; picture-in-picture';iframe.allowFullscreen=true;frame.appendChild(iframe)}else{const video=document.createElement('video');video.src=url;video.controls=true;video.playsInline=true;frame.appendChild(video)}}else frame.innerHTML='<p>Introduction video</p>';vm.classList.add('open');document.body.classList.add('modal-open')});
+    document.getElementById('videoOpen')?.addEventListener('click', () => {
+    const url = cfg.introVideoUrl || '';
+
+    if (url) {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
+});
     document.getElementById('videoClose')?.addEventListener('click',()=>{vm.classList.remove('open');document.body.classList.remove('modal-open')});vm?.addEventListener('click',e=>{if(e.target===vm){vm.classList.remove('open');document.body.classList.remove('modal-open')}});
 
     document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.article-modal.open,.video-modal.open,.project-modal.open').forEach(m=>m.classList.remove('open'));document.body.classList.remove('modal-open')}});
