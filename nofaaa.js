@@ -4,7 +4,7 @@ const PORTFOLIO_EMAIL = "YOUR-EMAIL@example.com";
 const GITHUB_URL = "https://www.instagram.com/ezz.nofal";
 const GITHUB_USERNAME = "";
 const FORMSPREE_ENDPOINT = "";
-const INTRO_VIDEO_URL = "";
+const INTRO_VIDEO_URL = "https://qr-pro-roan.vercel.app/u/ezznofal";
 window.PORTFOLIO_CONFIG = { githubUrl:GITHUB_URL, githubUsername:GITHUB_USERNAME, formspreeEndpoint:FORMSPREE_ENDPOINT, introVideoUrl:INTRO_VIDEO_URL };
 
 const menuBtn = document.getElementById("menuBtn");
